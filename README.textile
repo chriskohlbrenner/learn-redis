@@ -2,7 +2,7 @@ h1. Learn Redis
 
 h2. About
 
-p. This code is a fork from <a href="https://github.com/nicodds/learn-redis">this repo</a>, with minor updates since the original was out-of-date.
+p. This code is a fork from <a href="https://github.com/nicodds/learn-redis">this repo</a> and reflects <a href="http://labs.alcacoop.it/doku.php?id=articles:redis_land">this walkthrough</a>, with minor revisions because the original was out-of-date.
 
 p. It focuses on a simple problem, a book inventory app, and tries to solve it with a _nosql_ approach using ruby, sinatra, and redis.
 
@@ -18,6 +18,7 @@ p. This code is intended as starting point in learning how to model a database u
 h2. Getting started
 
 p. Before using this code, you should have a working installation of Redis (directions below using Homebrew):
+
 <pre>
 brew install redis
 redis-server
@@ -31,4 +32,7 @@ gem install redis
 </pre>
 
 p. Explore the app:
-<code>ruby poormenslibrary.rb</code>
+
+<pre>
+  ruby poormenslibrary.rb
+</pre>
