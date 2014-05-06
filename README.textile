@@ -34,5 +34,5 @@ gem install redis
 p. Explore the app:
 
 <pre>
-  ruby poormenslibrary.rb
+  ruby sinatra-app.rb
 </pre>

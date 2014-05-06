@@ -1,4 +1,4 @@
-require_relative 'models.rb'
+require_relative 'redis-models.rb'
 require 'sinatra'
 require 'erb'
 
