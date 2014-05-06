@@ -1,4 +1,4 @@
-require 'models.rb'
+require_relative 'models.rb'
 require 'sinatra'
 require 'erb'
 
