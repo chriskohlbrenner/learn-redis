@@ -10,8 +10,8 @@ h2. The code
 
 p. A short summary of the code:
 
-# <code>library.rb</code> works as an interface with Redis;
-# <code>poormenslibrary.rb</code> is the sinatra app that interfaces with users.
+# <code>redis_models.rb</code> works as an interface with Redis;
+# <code>sinatra_app.rb</code> is the sinatra app that interfaces with users.
 
 p. This code is intended as starting point in learning how to model a database using Redis.
 
@@ -34,5 +34,5 @@ gem install redis
 p. Explore the app:
 
 <pre>
-  ruby sinatra-app.rb
+  ruby sinatra_app.rb
 </pre>
